@@ -1,0 +1,35 @@
+
+Ans: A stream can be defined as a sequence of data. The InputStream is used to read data from a source and
+the MutputStream is used for writing data to a destinationP
+
+L write() - writes the specified byte to the output streamO
+L write(byte[] array) - writes the bytes from the specified array to the output streamO
+L flush() - forces to write all data present in the output stream to the destinationO
+L close() - closes the output streamP
+
+Ans: Serialization is the process of converting an object into a stream of bytes to transfer it over a network or to
+store it in a file or database. In Java, serialization is done by implementing the Serializable interfaceP
+
+Ans: The Serializable interface in Java is a marker interface that has no methods. It is used to mark classes that
+can be serialized, meaning their object instances can be converted into a stream of bytesP
+
+Ans: Deserialization is the process of converting a stream of bytes back into an object instance. This is done
+after an object has been serializedP
+
+Ans: Serialization is achieved in Java by implementing the Serializable interface. When an object is serialized, its
+state is converted into a stream of bytes, which can then be transferred over a network or stored in a file or
+databaseP
+
+Ans: Deserialization is achieved in Java by reading a stream of bytes and using them to recreate the original
+object instance. This is done by calling the readMbject() method of an MbjectInputStream instanceP
+
+Ans: Mark member variables as static or transient, and those member variables will no more be a part of
+SerializationP
+
+Ans: The following classes are available in the Java IM API and are important to work with files in JavaP
+File
+RandomAccessFile
+FileInputStream
+FileReader
+FileMutputStream
+FileWriter
